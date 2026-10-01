@@ -1,6 +1,6 @@
 # Gerador de Frases (Séries) - Back-end API
 
-Uma API REST desenvolvida em **Java** e **Spring Boot** que serve como back-end para uma aplicação de exibição de frases marcantes de séries. Este projeto foi o desafio final do curso **"Java: trabalhando com Lambdas, Streams e Spring Framework"** (ou a continuação de Web) da Alura.
+Uma API REST desenvolvida em **Java** e **Spring Boot** que serve como back-end para uma aplicação de exibição de frases marcantes de séries. Este projeto foi o desafio final do curso **"Java: trabalhando com Lambdas, Streams e Spring Framework"** da Alura.
 
 O grande objetivo deste desafio foi construir a inteligência do servidor (Back-end) do zero e integrá-la com uma aplicação de Front-end pronta (em JavaScript/HTML/CSS) disponibilizada pela Alura, solucionando problemas reais de comunicação de rede como o **CORS**.
 
@@ -25,7 +25,7 @@ O projeto foi estruturado seguindo o padrão MVC/Camadas clássico do desenvolvi
 - `repository/`: Interface que gerencia a comunicação com o banco e a lógica de busca aleatória.
 - `service/`: Classe responsável pela regra de negócio (seleção da frase).
 - `controller/`: Camada que expõe o endpoint HTTP para o Front-end.
-- `config/`: Configurações globais ou específicas de CORS (caso não tenha usado a anotação direta).
+- `config/`: Configurações globais ou específicas de CORS.
 
 ## Como Executar o Projeto
 
