@@ -31,7 +31,8 @@ O projeto foi estruturado seguindo o padrão MVC/Camadas clássico do desenvolvi
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com
+   git clone git clone https://github.com/Guilherme-Miranda-Comitante/gerador-frases-series-api.git
+   cd gerador-frases-series-api/desafio-gerador-frases
    ```
 2. Abra o projeto no **IntelliJ IDEA**.
 3. Certifique-se de configurar a sua base de dados no arquivo `application.properties`.
